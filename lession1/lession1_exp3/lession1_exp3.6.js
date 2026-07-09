@@ -53,7 +53,7 @@ async function main() {
   // Tuần tự
   const seqResults = await fetchSequential(ids);
   console.log("Kết quả tuần tự:", seqResults.length, "sản phẩm\n");
-  console.log("");
+
 
   // Song song
   const parResults = await fetchParallel(ids);
