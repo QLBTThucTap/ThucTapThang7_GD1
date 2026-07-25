@@ -42,12 +42,9 @@ export const CreateNewTodo = ({
             onAddingBtnClick();
           }
         }}
-      >
-        {" "}
-      </TextField>
+      ></TextField>
       <Button variant="contained" onClick={handleAddClick}>
-        {" "}
-        Thêm{" "}
+        Thêm
       </Button>
     </div>
   );

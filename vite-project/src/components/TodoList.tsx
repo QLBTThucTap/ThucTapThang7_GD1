@@ -1,6 +1,6 @@
 import { Tabs, Tab, Box, Typography } from "@mui/material";
 import { Todo } from "./Todo";
-import type { FilterType, TodoType } from "../../App";
+import type { FilterType, TodoType } from "../App";
 
 export const TodoList = ({
   todoList,

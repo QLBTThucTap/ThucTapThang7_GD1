@@ -1,7 +1,7 @@
 import { useEffect, useState, type ChangeEvent } from "react";
 import { v4 as uuid4 } from "uuid"; //<--- hàm tạo id duy nhất
-import { CreateNewTodo } from "./assets/components/CreateNewTodo";
-import { TodoList } from "./assets/components/TodoList";
+import { CreateNewTodo } from "./components/CreateNewTodo";
+import { TodoList } from "./components/TodoList";
 
 export type TodoType = { id: string; name: string; isCompleted: boolean };
 export type FilterType = "all" | "active" | "completed";
